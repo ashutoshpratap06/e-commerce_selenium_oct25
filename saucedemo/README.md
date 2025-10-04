@@ -16,7 +16,7 @@ Help → Eclipse Marketplace → Search "TestNG" → Install.
 
 **Run this command:**  **'mvn clean test'**
 
-*This will automatically pick **runner-testng-suites/testng.xml** and execute all defined TestNG classes*
+* This will automatically pick **runner-testng-suites/testng.xml** and execute all defined TestNG classes*
 
 
 **3. Import Project in Eclipse**

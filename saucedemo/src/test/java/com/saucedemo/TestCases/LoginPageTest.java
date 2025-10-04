@@ -9,9 +9,9 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import com.common.utitity.BaseClass;
 import com.common.utitity.ExcelUtilities;
-import com.saucedemo.pages.ProductPage;
 import com.saucedemo.pages.LoginPage;
 import com.saucedemo.pages.LogoutPage;
+import com.saucedemo.pages.ProductPage;
 
 
 

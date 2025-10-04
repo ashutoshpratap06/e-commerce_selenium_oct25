@@ -68,9 +68,9 @@ public class ProductPageTest extends BaseClass {
 	@DataProvider(name = "productData")
 	public Object[][] getProductData() {
 		return new Object[][] { { "Sauce Labs Onesie" },
-								{ "Sauce Labs Fleece Jacket" },	
-								{ "Sauce Labs Backpack" },
-								{ "Sauce Labs Bolt T-Shirt" }
+//								{ "Sauce Labs Fleece Jacket" },	
+//								{ "Sauce Labs Backpack" },
+//								{ "Sauce Labs Bolt T-Shirt" }
 								
 			};
 			

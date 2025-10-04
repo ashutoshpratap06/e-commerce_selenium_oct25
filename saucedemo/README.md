@@ -1,4 +1,5 @@
 **How to Run Selenium Automation Tests**
+
 **1. Setup Prerequisites**
 
 1. Download and install Eclipse IDE – Version: 2022-09 (4.25.0)
@@ -10,19 +11,19 @@ Select JavaSE-17.
 5. Install TestNG Plugin in Eclipse:
 Help → Eclipse Marketplace → Search "TestNG" → Install.
 
-** 2. Run Selenium Tests via Maven (Command Line) **
+**2. Run Selenium Tests via Maven (Command Line)**
 1. I have configured pom.xml to use the suite file at: **runner-testng-suites/testng.xml**
 
-** Run command: ** mvn clean test
+**Run this command:**  **'mvn clean test'**
 
-* This will automatically pick **runner-testng-suites/testng.xml** and execute all defined TestNG classes
+*This will automatically pick **runner-testng-suites/testng.xml** and execute all defined TestNG classes*
 
 
-** 3. Import Project in Eclipse**
+**3. Import Project in Eclipse**
 1. Clone this repository using Git:
 git clone <repo-url>
 2. Open Eclipse → File → Import → Maven → Existing Maven Projects → Next → Browse → Finish.
-** 3. Run Selenium Tests**
+**3. Run Selenium Tests**
 1. Navigate to:
 src/test/java/com/TestCases
 2. Run the following TestNG classes:
@@ -32,7 +33,7 @@ src/test/java/com/TestCases
 
 
 
-** Manual Testing Task**
+**Manual Testing Task**
 
 1. Manual testing scenarios and cases are documented in the following Excel file: File: **My_Swag_Labs_Test_Cases.xlsx**
 
